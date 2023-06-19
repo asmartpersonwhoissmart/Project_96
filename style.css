@@ -1,0 +1,126 @@
+#Login_Page
+{
+    background-image:url("real\ background\ 2.png");
+    background-position:center;
+    background-size:cover;
+
+}
+
+#login_div{
+    margin-top: 330px;
+    margin-right: 20px;
+    background-color:rgba(245, 217, 241, 0.842);
+	border-radius: 30px;
+    text-align: center;
+    float:none;
+}
+
+#login_btn{
+    margin-bottom: 15px;
+}
+
+#welcome{
+    padding-top: 30px;
+}
+
+#username{
+    border-radius: 9px;
+    text-align: center;
+}
+
+#logout_btn{
+    float: right;
+    margin-top: 40px;
+    margin-right: 120px;
+}
+
+#Kwitter_Page , #kwitter_page {
+    background-image:url("Kwitter_background.jpg");
+    background-position:center;
+    background-size:cover; 
+}
+
+#Kwitter_lbl{
+    color: white;
+    margin-top: 100px;
+    margin-right: 50px;
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+}
+
+#welcome_user{
+    color: white;
+    margin-right: 52px;
+    margin-top: 50px;
+}
+
+#rooms_names{
+    margin-right: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.input_div_room_page
+{
+	width: 60%;
+}
+
+#RoomName_input{
+    border-radius: 9px;
+    text-align: center;
+}
+
+#add_room{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+#output
+{
+	padding: 10px;
+     width:80%;
+     background: rgba(255,255,255,0.8);
+     border-radius: 15px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#back{
+    float: left;
+    margin-top: 5px;
+}
+
+#logout{
+    float: right;
+    margin-top: 5px;
+}
+
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+
+.input_div_message_page
+{
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+}
+
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 30%; 
+}

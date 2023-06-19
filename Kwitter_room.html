@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>KWITTER WEBAPP - PART 2</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body id="Kwitter_Page">
+
+    <div id="kwitter_div" class="container">
+
+        <button id="logout_btn" onclick="logout()"
+            class="glyphicon glyphicon-log-out btn btn-danger btn-lg">Logout</button>
+        <center>
+            <h1 id="Kwitter_lbl" class="header">Kwitter</h1>
+            <h3 id="welcome_user">Welcome</h3>
+            <div class="form-group input_div_room_page">
+
+                <h4 id="rooms_names">#AddRoom:</h3>
+                    <br>
+                    <input id="RoomName_input" type="text" placeholder="Enter the Room name" class="form-control">
+                    <br>
+                    <button id="add_room" onclick="addRoom()" class="btn btn-success btn-lg">#AddRoom</button>
+                    <br>
+                    <h3 style=" margin-right: 40px; color: white; font-weight:400;">#TRENDINGROOMS</h3>
+                    <div id="output"></div>
+
+            </div>
+        </center>
+    </div>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="Kwitter_room.js"></script>
+</body>
+
+</html>

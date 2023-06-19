@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Finally let's chat</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body id= "kwitter_page">
+
+        <div class="container">
+            <button id="back" onclick="back()" class="glyphicon glyphicon-arrow-left btn btn-success btn-lg"> Back</button>
+            <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger btn-lg"> Logout</button>
+
+            <center>
+                <h1 class="header">
+                    Kwitter
+                    <sup>
+                        <img src="m2.png">
+                    </sup>
+                </h1>
+                <h2 id="entered_room" style="color:white; font-family: Yeon Sung;"></h2>
+		<div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
+            </center>
+        </div>
+
+        <center>
+            <div class="input_div_message_page">
+                <label style= "font-size: 20px">Send:</label>
+                <input id="msg_input" type="text" placeholder="Say Something" class="form-control" style="border-radius:10px; width:75%">
+                <button class=" glyphicon glyphicon-send btn btn-success btn-info btn-lg" onclick="send()"> Send</button>
+            </div>
+        </center>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="kwitter_page.js"></script>
+    </body>
+</html>
